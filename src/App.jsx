@@ -2,7 +2,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { Section, Container } from 'components';
 import { Photos } from 'tabs/Photos';
-import { Todos } from 'tabs/Todos';
+import { TodosList } from 'tabs/TodosList';
 import { Toaster } from 'react-hot-toast';
 
 export const App = () => {
@@ -19,7 +19,7 @@ export const App = () => {
             <Photos />
           </TabPanel>
           <TabPanel>
-            <Todos />
+            <TodosList />
           </TabPanel>
         </Tabs>
       </Container>
